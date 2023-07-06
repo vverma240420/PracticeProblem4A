@@ -4,11 +4,11 @@ namespace NLoggerDemo
 {
     internal class Program
     {
-        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
+       // private static readonly Logger logger = LogManager.GetCurrentClassLogger();
 
         static void Main(string[] args)
         {
-              logger.Info("Program Started");
+            /*  logger.Info("Program Started");
               try
               {
                   Console.WriteLine("Enter the first number: ");
@@ -27,7 +27,22 @@ namespace NLoggerDemo
                   Console.WriteLine("Error Found");
               }
               logger.Info("Program Finished");
-              Console.ReadLine();  
+              Console.ReadLine();                      */
+
+            DataManipulation manipulator = new DataManipulation();
+
+            manipulator.Create("Apple");
+            manipulator.Create("Banana");
+            manipulator.Create("Orange");
+
+            manipulator.Read();
+
+            manipulator.Update(1, "Mango");
+            manipulator.Delete(0);
+
+            manipulator.Read();
+
+            Console.ReadKey();
         }
     }
 }
