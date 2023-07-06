@@ -1,0 +1,17 @@
+﻿2023-07-06 17:59:37.3105|DEBUG|NLoggerDemo.Program|This is a debug message.
+2023-07-06 17:59:37.3154|INFO|NLoggerDemo.Program|This is an info message.
+2023-07-06 17:59:37.3154|WARN|NLoggerDemo.Program|This is a warning message.
+2023-07-06 17:59:37.3154|ERROR|NLoggerDemo.Program|This is an error message.
+2023-07-06 17:59:37.3154|FATAL|NLoggerDemo.Program|This is a fatal message.
+2023-07-06 18:16:11.1629|INFO|NLoggerDemo.Program|Program Started
+2023-07-06 18:16:18.0130|INFO|NLoggerDemo.Calculator|Calculating the sum of 3 and 4.
+2023-07-06 18:16:18.0130|INFO|NLoggerDemo.Calculator|The sum of 3 and 4 is 7.
+2023-07-06 18:16:18.0130|INFO|NLoggerDemo.Program|Program Finished
+2023-07-06 18:16:50.4065|INFO|NLoggerDemo.Program|Program Started
+2023-07-06 18:17:15.2259|INFO|NLoggerDemo.Calculator|Calculating the sum of 23 and 45.
+2023-07-06 18:17:15.2259|INFO|NLoggerDemo.Calculator|The sum of 23 and 45 is 68.
+2023-07-06 18:17:15.2259|INFO|NLoggerDemo.Program|Program Finished
+2023-07-06 18:41:33.2627|INFO|NLoggerDemo.Program|Program Started
+2023-07-06 18:41:35.1036|INFO|NLoggerDemo.Calculator|Calculating the sum of 2 and 2.
+2023-07-06 18:41:35.1036|INFO|NLoggerDemo.Calculator|The sum of 2 and 2 is 4.
+2023-07-06 18:41:35.1036|INFO|NLoggerDemo.Program|Program Finished
